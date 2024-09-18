@@ -1,0 +1,4 @@
+In this question, we first create a directed graph containing edge weights. Then, we create a distance array and set the distance from the source to 0. Next, we push 
+the stops, node, and cost into a queue. While the queue is not empty, we process the node, stops, and cost. We then start checking for adjacent nodes. If the weight
+  of the adjacent node plus the node cost is less than the distance of the adjacent node and the stops are less than or equal to k, then we set the distance of the 
+  adjacent node to the cost plus the weight of the adjacent node and push the adjacent node into the queue, increasing the stops by 1 and updating the cost.
